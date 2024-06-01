@@ -6,7 +6,7 @@
 /*main function is a special function in C*.
 A C-program starts its execution from the main function.
 Hence every C-program must have a main function*/
-void main() {
+int main() {
 
     /*main function calls the library function printf.
     printf function prints the sequence of characters given as argument to the function.
