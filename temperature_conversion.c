@@ -5,7 +5,7 @@ The Fahrenheit values ranges from 0 to 300 with a step size of 20*/
 
 #include<stdio.h>
 
-void main() {
+int main() {
 
     /*Declares the variables.
     In C all variables must be declared before being used
@@ -28,8 +28,7 @@ void main() {
     While loop tests the condition in the paranthesis which in our case is "fahr<=upper"
     If the condition is true then the body of the while loop is executed.
     After every execution the condition is retested and the process is repeated.
-    If the condition becomes false then the loop ends and execution continues at the statement that follows the while loop
-    In our case there are no statments after the while loop , so the program terminates*/
+    If the condition becomes false then the loop ends and execution continues at the statement that follows the while loop*/
     while(fahr<=upper) {
 
         /*The celsius value is computed(through arithmetic expression) and assigned to the variable celsius*/
@@ -48,4 +47,6 @@ void main() {
         /*Increments the value of variable fahr with step size*/
         fahr = fahr+step;
     }
+
+    return 0;
 }
