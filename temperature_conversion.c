@@ -22,6 +22,8 @@ void main() {
     step = 20;
     fahr = lower;
 
+    printf("Fahrenheit-Celsius Conversion Table\n");
+
     /*While loop is used when repetition is needed
     While loop tests the condition in the paranthesis which in our case is "fahr<=upper"
     If the condition is true then the body of the while loop is executed.
